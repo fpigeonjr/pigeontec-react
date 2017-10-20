@@ -82,7 +82,7 @@ const Footer = () => (
             </address>
             <tel>210-704-7443</tel>
             <br />
-            <a href="mailto:{email}" className="footer-link">
+            <a href={`mailto:${email}`} className="footer-link">
               {email}
             </a>
           </div>
