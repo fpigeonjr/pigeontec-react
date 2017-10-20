@@ -68,9 +68,9 @@ const Welcome = () => (
               development.
             </p>
             <p className="mission-p">
-              Pigeontec is a veteran owned, values-based small business. Our
-              mission is to help individuals, businesses, non-profits, and
-              churches grow and gain exposure by getting online.
+              Pigeontec is a veteran owned small business. Our mission is to
+              help individuals, businesses, and non-profits gain online exposure
+              by creating custom web solutions.
             </p>
           </div>
         </div>

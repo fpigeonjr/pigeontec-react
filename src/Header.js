@@ -3,18 +3,20 @@ import styled from "styled-components";
 import headerbg from "./img/header-bg.png";
 
 const Title = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-image: url(${headerbg});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 80vh;
-  position: relative;
   text-align: center;
   color: white;
   .header-h1 {
     margin: 0 0 29px 0;
-    padding-top: 310px;
     font-size: 64px;
     font-weight: 200;
   }
