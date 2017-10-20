@@ -30,7 +30,11 @@ const Nav = () => (
       </div>
       <div id="navbar" className="navbar-collapse collapse">
         <ul className="nav navbar-nav navbar-right">
-          {navLinks.map(links => <a href={links.url}>{links.text}</a>)}
+          {navLinks.map(links => (
+            <li>
+              <a href={links.url}>{links.text}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

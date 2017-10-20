@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: #2c3e50;
+  background-color: #2f2933;
+  font-size: 18px;
+  line-height: 1.611111111;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+	transition:0.3s;
+}
+
+.pigeontec {
+    font-size: 20px !important;
 }
